@@ -1,0 +1,11 @@
+ 
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+uv init
+
+uv add pyside6 numexpr
+
+uv pip install -r requirements.txt
+
+uv run main.py
+

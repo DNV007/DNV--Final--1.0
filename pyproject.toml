@@ -1,0 +1,10 @@
+[project]
+name = "dnv-flat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numexpr>=2.14.1",
+    "pyside6>=6.11.0",
+]
